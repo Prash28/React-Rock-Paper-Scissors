@@ -18,6 +18,6 @@ const choicesList = [
   },
 ]
 
-const App = () => <div>Hello World</div>
+const App = () => <Game choicesList={choicesList} />
 
 export default App
