@@ -123,6 +123,7 @@ class GamePlay extends Component {
             {close => (
               <PopUpView>
                 <button
+                  aria-label="Some Label"
                   type="button"
                   className="trigger-button-close"
                   onClick={() => close()}
